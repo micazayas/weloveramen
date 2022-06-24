@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset='utf-8'>
+        <title>We love Ramen</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Fanáticos del ramen, escribiendo sobre ramen."/>
+        <link rel="icon" href="assets/favicon/favicon-32x32.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <script src="js/bootstrap.bundle.js"></script>
+    </head>
+    <body class="white-body">
+
+    <!--Nav section-->
+      <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+          <a class="navbar-brand" href="index.html"><img src="assets/favicon/logo.png" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto expansible">
+              <li class="nav-item">
+                <a class="nav-link type" href=#banner>Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link type" href=#variety>Tipos de ramen</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link type" href=#question>F.A.Q.S</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link type" href=#contact>Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link type" href="section_chef.html">Ver grid page</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+    <!-- Ending nav section-->
+      <main> 
+    <!-- Front Page-->
+      <div class="container-fluid position-relative" id="banner" >
+        <h1 class="position-absolute top-50 end-0 ramen-title-red">RAMEN</h1>
+        <figure class="banner-chef"><img class="img-fluid w-100" src="assets/portadas/portada-index.webp" alt="cocinero tradicional de ramen"></figure>
+      </div>
+    <!-- End Front Page-->
+
+    <!--Cards-->
+      <h2 class="display-2 ramen" id="variety"> Los distintos tipos de Ramen</h2>
+      <div class="ramen_margin">
+      <div class="container-fluid">
+        <div class="row justify-content-center m-md-auto">
+        <!--Primera card-->
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 ">
+              <div class="card m-3" >
+                <img src="assets/cards-tipos/hakata-ramen.webp" class="card-img-top p-1" alt="Plato de Hakata Ramen">
+                <div class="card-body">
+                <h5 class="card-title text-uppercase">Hakata ramen</h5>
+                <p class="card-text">El ramen parte de un caldo de cerdo contundente elaborado a partir de huesos, manitas, orejas y demás cortes que agregan gelatina y cuerpo al caldo.</p>
+                <button type="button" class="btn btn-danger " data-bs-toggle="modal" data-bs-target="#staticBackdrop">Ver más</button>
+                </div>
+              </div> 
+          </div>
+        <!--Segunda card-->
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 ">
+              <div class="card m-3" >
+                <img src="assets/cards-tipos/kioto-ramen.webp" class="card-img-top p-1" alt="Plato de Kioto Ramen">
+                <div class="card-body">
+                <h5 class="card-title text-uppercase">Kioto ramen</h5>
+                <p class="card-text">En esta región el ramen se cocina a partir de caldo de pollo, con finos fideos y se adereza con cebollino y pasta de judías picante.</p>
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Ver más</button>
+                </div>
+              </div> 
+          </div>
+        <!--Tercera card-->
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 ">
+              <div class="card m-3" >
+                <img src="assets/cards-tipos/tokio-ramen.webp" class="card-img-top p-1" alt="Plato de Tokio Ramen">
+                <div class="card-body">
+                <h5 class="card-title text-uppercase" >Tokio ramen</h5>
+                <p class="card-text">Se hace a partir de caldo de cerdo y pollo que suelen aderezarse con dashi, los fideos usados son rizados, de grosor medio y se adereza con cerdo asado.</p>
+                <button type="button" class="btn btn-danger " data-bs-toggle="modal" data-bs-target="#staticBackdrop">Ver más</button>
+                </div>
+              </div>
+          </div>
+        <!--Cuarta card-->
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 ">
+            <div class="card m-3" >
+                <img src="assets/cards-tipos/muroran-ramen.webp" class="card-img-top p-1" alt="Plato de Muroran Ramen">
+                <div class="card-body">
+                <h5 class="card-title text-uppercase">Muroran ramen</h5>
+                <p class="card-text">Esta región costera destaca por el frío y por eso wa común cocinar ramen con curry para entrar en calor. El más conocido de esta zona es el de cerdo al curry. </p>
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Ver más</button>
+              </div>
+            </div>
+          </div>
+        <!--Quinta card-->
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 ">
+            <div class="card m-3" >
+                <img src="assets/cards-tipos/sapporo-ramen.webp" class="card-img-top p-1" alt="Plato de Sapporo Ramen">
+                <div class="card-body">
+                <h5 class="card-title text-uppercase">Sapporo ramen</h5>
+                <p class="card-text">Elaborado con fideos gruesos, caldo de cerdo, pollo o pescado, miso rojo, huevos pasado por agua, carne de cerdo picada,col,  jengibre y maíz dulce.</p>
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Ver más</button>
+              </div>
+            </div>  
+          </div>
+        <!--Sexta card-->
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 ">
+            <div class="card m-3">
+                <img src="assets/cards-tipos/tsukemen-ramen.webp" class="card-img-top p-1" alt="Plato de Tsukemen Ramen">
+                <div class="card-body">
+                <h5 class="card-title text-uppercase">Tsukemen ramen</h5>
+                <p class="card-text">Esta receta de ramen se come en los meses de verano. El tsukemen ramen se sirve en dos bol distintos: en uno los fideos ligeramente fríos y en un otro el caldo. </p>
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Ver más</button>
+              </div>
+            </div>  
+          </div>
+        <!--Séptima card-->
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 ">
+            <div class="card m-3 ">
+              <img src="assets/cards-tipos/shio-ramen.webp" class="card-img-top  p-1" alt="Plato de Shio Ramen">
+              <div class="card-body">
+              <h5 class="card-title text-uppercase">Shio ramen</h5>
+              <p class="card-text"> Es muy popular en Hokkaido y es un ramen elaborado con una base de sal. El caldo es transparente y tiene un sabor menos complejo que otros tipos de ramen.</p>
+              <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Ver más</button>
+            </div>
+          </div>  
+          </div>
+          <!--Octava card-->
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 ">
+            <div class="card m-3" >
+              <img src="assets/cards-tipos/tonkotsu-ramen.webp" class="card-img-top  p-1" alt="Plato de Tonkosu Ramen">
+              <div class="card-body">
+              <h5 class="card-title">Tonkotsu ramen</h5>
+              <p class="card-text">Un ramen elaborado con caldo hecho con huesos de cerdo, tiene un tono blanquecino debido al colágeno y gelatina de los huesos.</p>
+              <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Ver más</button>
+            </div>
+          </div>  
+          </div>
+          </div>
+        </div>
+      </div>
+    <!-- End Cards -->
+
+    <!-- General Modal -->
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+          <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">¿Dónde comer esté Ramen?</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body"> Te dejemos una sugerencia de cada restaurant según tipo de Ramen en base a las recomendaciones de los usuarios:
+        <ul class="list-unstyled">
+          <li><a href="https://www.hakata.co.uk/" target="_blank">Harata Sushi</a></li>
+          <li><a href="https://www.kyoto-ramen-koji.com/english/"  target="_blank">Kioto Ramen</a></li>
+          <li><a href="https://tokioramen.com/home/home/sample-page/"  target="_blank">Tokio Ramen</a></li>
+          <li><a href="http://muro-kanko.com/eat-buy/shibukiya_06.html"  target="_blank">Muroran Ramen</a></li>
+          <li><a href="https://ramen-online.com/products/sapporo-ramen" target="_blank">Sapporo Ramen</a></li>
+          <li><a href="https://monacoramen.bigcartel.com/" target="_blank">Tsukemen Ramen</a></li>
+          <li><a href="https://monacoramen.bigcartel.com/" target="_blank">Shio Ramen</a></li>
+          <li><a href="https://www.sushi-sano.de/" target="_blank">Tonkotsu Ramen</a></li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- End General Modal -->
+
+    <!-- Carousel -->
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/carousel/plato-ramen.webp" class="d-block w-100" alt="Plato de ramen tradicional">
+        <div class="carousel-caption d-md-block">
+          <p class="title-carousel">Una tradición japonesa</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/carousel/ramen-familiar.webp" class="d-block w-100" alt="Madre e hija cocinando ramen">
+        <div class="carousel-caption d-md-block">
+        <p class="title-carousel">Generación en generación</p>
+      </div>
+      </div>
+      <div class="carousel-item">
+          <img src="assets/carousel/ramen-japon.webp" class="d-block w-100" alt="Hombre comiendo ramen callejero">
+          <div class="carousel-caption d-md-block">
+          <p class="title-carousel">Ramen callejero todo el año</p>
+          </div>
+      </div>
+    </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <!-- End Carousel -->
+
+    <!-- F.A.Q.S-->
+      <h2 class="ramen" id="question"> Preguntas frecuentes</h2>
+
+        <div class="faqs">
+          <div class="accordion d-grid gap-3 col-xs-12 col-sm-12 col-md-12 col-lg-12"  id="accordionExample">
+          <div class="accordion-item col-xs-12 col-sm-10 col-md-10 col-lg-8 text-left" >
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button text-dark text-left" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" >
+              ¿Se necesitar algo especial para cocinar mi propio Ramen?</button>
+            </h2>
+          <div id="collapseOne" class="accordion-collapse collapse text-left" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body text-left">
+              El ramen si se puede hacer en casa, pero es un plato para el cuél se necesita tiempo y paciencia. Este plato se basa en un caldo intenso a base de carne al que se le añaden una serie de ingredientes: panceta, lomo de cerdo, huevos, alga nori, brotes de soja, brotes de bambú, cebollino chino… son muchos los toppings que se le pueden añadir a este caldo.
+              Desde luego el secreto del éxito está, en buena parte en el <strong>caldo</strong>. Conseguir una base intensa con un sabor umami lo mejor posible, podemos lograrlo si utilizamos los ingredientes necesarios. Por un lado la carne, lo habitual es emplear huesos de cerdo o incluso de pollo. Una forma rápida, sería añadiendo un poco de pasta de miso, le dará un plus a tu ramen.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item accordion-item col-xs-12 col-sm-10 col-md-10 col-lg-8">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button text-dark  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">¿Puedo comer Ramen si soy vegetariano o vegano?</button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Si. Los fideos ramen están hechos de harina de trigo y aceite , generalmente con algunos ingredientes adicionales para darle sabor, como sal, o rellenos adicionales como almidón de papa, ¡y eso es todo! ¡Todos estos ingredientes son 100% vegetarianos e incluso 100% veganos!
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item accordion-item col-xs-12 col-sm-10 col-md-10 col-lg-8">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button text-dark collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">¿Cuál es la diferencia entre los diferentes Ramen?</button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              La diferencia principal redica en el tipo de caldo y las carnes que se utilizan. El tiempo de reposo del plato será la base de la diferencia ya que a mayor reposo más intenso será su sabor. La elección del tipo dependerá exclusivamente del gusto del consumidor.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item accordion-item col-xs-12 col-sm-10 col-md-10 col-lg-8">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button  text-dark collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">¿Cuál es la bebida ideal para acompañar el plato?</button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              El ramen tienen mucha presencia de verduras, lo cual los convierte en platos difíciles de maridar dependiendo de cuáles sean estas. Un blanco con carácter se nos antoja muy apto para maridar. Chardonnay o Verdejo con crianza por ejemplo.
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    <!-- End F.A.Q.S-->
+      </main>
+
+    <!--Footer-->
+    <footer class="page-footer font-small bg-danger" id="contact">
+
+      <!-- Footer Links -->
+        <div class="container text-center text-md-left">
+        <div class="row">
+          <div class="col-md-3 mx-auto">
+            <h5 class="font-weight-bold text-light text-uppercase mt-3 mb-4">Contactanos</h5>
+              <ul class="list-unstyled">
+                <li><a href="https://www.google.com/maps/dir//1+University+Pl,+New+York,+NY+10003,+EE.+UU./data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x89c259909ed94bf7:0xf48ddd1824397c40?sa=X&ved=2ahUKEwjD_MOGm8T4AhUu_rsIHbgBBocQwwV6BAgOEAM" target="_blank">1 University Pl, New York</a></li>
+                <li><a href="https://www.google.com/maps/dir//1+University+Pl,+New+York,+NY+10003,+EE.+UU./data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x89c259909ed94bf7:0xf48ddd1824397c40?sa=X&ved=2ahUKEwjD_MOGm8T4AhUu_rsIHbgBBocQwwV6BAgOEAM" target="_blank">Estados Unidos</a></li>
+                <li><a href="#!">weloveramen@gmail.com</a></li>
+                <li><a href="#!">+1 212-229-2752</a></li>
+              </ul>
+          </div>
+      
+      <!-- Grid column -->
+        <hr class="clearfix w-100 d-md-none">
+        <div class="col-md-3 mx-auto">
+  
+      <!-- Links -->
+        <h5 class="font-weight-bold text-light text-uppercase mt-3 mb-4">Seguinos</h5>
+          <ul class="list-unstyled">
+            <li><a href="https://es-la.facebook.com/" target="_blank">Facebook</a></li>
+            <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+            <li><a href="https://www.youtube.com/" target="_blank">You Tube</a></li>
+            <li><a href="https://twitter.com/?lang=es" target="_blank">Twitter</a></li>
+          </ul>
+        </div>
+  
+      <!-- Grid column -->
+        <hr class="clearfix w-100 d-md-none">
+        <div class="col-md-3 mx-auto">
+  
+      <!-- Links -->
+        <h5 class="font-weight-bold text-light text-uppercase mt-3 mb-4">Links de interes</h5>
+          <ul class="list-unstyled">
+            <li><a href="https://www.elespanol.com/cocinillas/recetas/carne/20161115/mejor-receta-ramen-puedes-preparar-casa/1000683981597_30.html" target="_blank">Recetas</a></li>
+            <li><a href="https://xn--niogordo-e3a.com.ar/" target="_blank">Niño gordo</a></li>
+            <li><a href="https://www.timeout.com/tokyo/restaurants/20-best-ramen-in-tokyo" target="_blank">Ramen en Tokyo</a></li>
+            <li><a href="https://www.timeout.com/tokyo/restaurants/20-best-ramen-in-tokyo" target="_blank">El origen</a></li>
+          </ul>
+        </div>
+        </div>
+        </div>
+      <!-- Copyright -->
+        <div class="footer-copyright text-center py-3" >© 2022 Copyright: Micaela Zayas - “Interacción con dispositivos móviles – TP n° 2”</div>
+      <!-- Copyright -->
+        </footer>
+      <!-- End Footer --> 
+
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <!-- bootstrap javascript -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  </body>
+</html>

@@ -1,0 +1,21 @@
+                            
+/* TEAM */
+                 
+	Web designer: Micaela Zayas
+	Guthub: https://github.com/micazayas
+	From: Múnich, Alemania.
+
+                         
+							
+/* THANKS */
+						
+	Associate Ledesma, Gonzalo
+	From: Buenos Aires, Argentina.
+
+						
+                            
+/* SITE */
+                            
+	Last update: 2022/24/06                     
+	Standards: HTML5, CSS3, JS, BS%                            
+	IDE: VSC,  Illustrator, Photoshop
